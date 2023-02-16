@@ -3,8 +3,10 @@
 
 #include <string>
 #include <unordered_map>
+#include <vector>
 
 bool vcs_init();
+bool vcs_add(const std::vector<std::string>& args);
 bool vcs_commit(const std::string& message);
 bool vcs_log();
 
